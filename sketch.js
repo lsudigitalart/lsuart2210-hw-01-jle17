@@ -1,6 +1,15 @@
 function setup() {
   createCanvas(1000, 1000);
 
+
+  //flower circles
+  ellipse(100,100,200)
+  ellipse(200,300,200)
+  ellipse(350,200,200)
+  ellipse(500,350,200)
+  ellipse(600,150,200)
+
+
   //petals 1
   ellipse(100, 60, 30);
   ellipse(60, 100, 30);
@@ -50,6 +59,7 @@ function setup() {
   ellipse(630, 120, 30);
   ellipse(570, 180, 30);
   ellipse(630, 180, 30);
+
 
   //flower centers
   fill ('black');
